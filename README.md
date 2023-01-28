@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# flutterapi2
-Continuação do curso de API com Flutter
-=======
 ![Thumbnail GitHub](https://github.com/alura-cursos/flutter_webapi_second_course/raw/main/thumbnail02.png)
 
 Repositório do Curso de Flutter com Web API II - Evoluindo na Integração, da Alura. 
@@ -44,4 +40,3 @@ Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](https://cur
 Esse curso faz parte da [formação de Flutter da Alura](https://cursos.alura.com.br/formacao-flutter)
 
 *Te vejo lá!*
->>>>>>> 11795b6 (passando um item do journal por paramentro)
