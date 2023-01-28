@@ -1,0 +1,23 @@
+{
+  "learnhttp": {},
+  "journals": [
+    {
+      "id": "495628b0-9e7c-11ed-8b1e-25fb1cc6d2e1",
+      "content": "Nova data",
+      "created_at": "2023-01-21 18:17:27.631533",
+      "updated_at": "2023-01-21 18:17:27.631533"
+    },
+    {
+      "id": "f1d324b0-9e8c-11ed-8b1e-25fb1cc6d2e1",
+      "content": "teste",
+      "created_at": "2023-01-22 18:17:27.631533",
+      "updated_at": "2023-01-22 18:17:27.631533"
+    },
+    {
+      "id": "f3d481e0-9eab-11ed-96de-1fa4b0420d6e",
+      "content": "Hoje é sexta",
+      "created_at": "2023-01-18 22:00:58.242247",
+      "updated_at": "2023-01-18 22:00:58.242247"
+    }
+  ]
+}
