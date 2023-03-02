@@ -6,7 +6,7 @@ import '../models/journal.dart';
 import 'http_interceptors.dart';
 
 class JournalService {
-  static const String url = "http://192.168.0.11:3000/";
+  static const String url = "http://192.168.0.19:3000/";
   static const String resource = "journals/";
 
   http.Client client = InterceptedClient.build(
@@ -57,7 +57,6 @@ class JournalService {
     http.Response response = await client.get(getUri());
 
     if (response.statusCode != 200) {
-      //TODO: Criar uma exceção personalizada
       throw Exception();
     }
 
