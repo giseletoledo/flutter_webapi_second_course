@@ -58,6 +58,7 @@ class JournalService {
 
     if (response.statusCode != 200) {
       throw Exception();
+      print(response);
     }
 
     List<Journal> result = [];
