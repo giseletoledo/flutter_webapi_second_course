@@ -21,7 +21,9 @@ List<JournalCard> generateListJournalCards(
   database.forEach(
     (key, value) {
       if (value.createdAt
-          .isAfter(currentDay.subtract(Duration(days: windowPage)))) {
+          .isAfter(currentDay.subtract(Duration(days: windowPage + 1))))
+      //.isAfter(currentDay.subtract(Duration(days: windowPage))))
+      {
         int difference = value.createdAt
             .difference(currentDay.subtract(Duration(days: windowPage)))
             .inDays
